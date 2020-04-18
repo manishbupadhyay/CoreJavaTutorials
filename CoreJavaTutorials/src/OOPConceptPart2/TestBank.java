@@ -25,6 +25,8 @@ public class TestBank {
 		b.debit();
 		b.transferMoney();
 		
+		BrazilBank bb = new HSBCBank();
+		bb.mutualFund();
 	}
 
 }
