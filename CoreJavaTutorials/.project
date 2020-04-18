@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/JavaBasics/Collection In Java.png</name>
+			<type>1</type>
+			<location>C:/Users/Ayan/OneDrive/Desktop/Collection In Java.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
