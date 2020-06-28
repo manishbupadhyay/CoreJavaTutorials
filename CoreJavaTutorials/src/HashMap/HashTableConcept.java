@@ -57,6 +57,8 @@ public class HashTableConcept {
 		ht1.put("A", "Manish");
 		ht1.put("B", "Automation QA");
 		ht1.put("C", "Selenium");
+		ht1.put("C", "Selenium"); // it contains only unique value so it will not print duplicate value
+		// no null key and null values // it will throw null pointer exception
 		
 		// check both the hashtable are equal or not:
 		if(ht.equals(ht1))
@@ -67,6 +69,10 @@ public class HashTableConcept {
 		
 		// get the hashcode of hashtable object
 		System.out.println("The hash code value of ht1 : " + ht1.hashCode());
+		
+		// generic
+		Hashtable<String, String> ht3 = new Hashtable<String, String>(); // it will allow only string key and string value
+		ht3.put("D", "ABC");
 
 	}
 
