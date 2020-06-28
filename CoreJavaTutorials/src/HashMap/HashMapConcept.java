@@ -12,6 +12,7 @@ public class HashMapConcept {
 		// it maintains no order ---- not thread safe
 		// HashMap is non-synchronized
 		// concurrent modification exception -- Fail - fast condition
+		// we use HashMap in Multithreading application to enhance performance.
 		
 		HashMap<Integer, String> hm = new HashMap<Integer, String>();
 		hm.put(1, "Selenium");
